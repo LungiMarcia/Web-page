@@ -43,7 +43,7 @@ li a {
 }
 
 section {
-  padding: 3rem 0 0 2rem;
+  margin: 3rem 0 0 2rem;
   display: flex;
   justify-content: space-around;
 }
@@ -61,4 +61,26 @@ section {
 footer {
   display: flex;
   justify-content: space-between;
+}
+
+.contactInfo {
+  margin: 2rem 0 0 2rem;
+}
+
+.map {
+  margin: 2rem 7rem;
+}
+
+.phone {
+  padding-top: 1rem;
+}
+
+.socials {
+  padding-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: aqua;
+  font-size: 16px;
 }
