@@ -43,50 +43,22 @@ li a {
 }
 
 section {
-  padding: 3rem 0 0 3rem;
+  padding: 3rem 0 0 2rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .myBio {
   max-width: 75%;
 }
 
-section {
-  display: flex;
-  justify-content: space-around;
-}
-
 .myImage {
   border: none;
   border-radius: 50%;
-}
-.address {
-  padding: 2rem;
-}
-
-.phone {
-  padding: 2rem;
-}
-
-.social-icons {
-  font-size: 2rem;
-  margin-left: 3rem;
-}
-
-a i {
-  color: aqua;
-}
-
-.socials {
-  padding-left: 3rem;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.social-icons a {
-  text-decoration: none;
+  margin-right: 7rem;
 }
 
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
