@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  background-color: #1f242d;
+  margin-left: 10rem;
+  padding-top: 2rem;
+}
+
+header {
+  color: #1f242d;
+  text-align: center;
+  font-weight: bold;
+  background: aqua;
+  border: none;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+  width: 90%;
+}
+
+h2 {
+  text-align: center;
+  color: aqua;
+  width: 90%;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5rem;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: aqua;
+  font-size: 25px;
+  padding: 3rem;
+}
+
+footer {
+  border-top: 1px solid #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 90%;
+}
