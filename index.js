@@ -40,22 +40,38 @@ console.log(
     personalInfo.contact.email
 );
 
-console.log("Address:" + address);
+console.log("Address:" + personalInfo.address);
 
 var projects = [
   {
     title: "Landing page",
     description:
-      "It is a landing page about Coffee. It includes the link for more infrormation regarding the benefits of startig your day with coffee. It also have a button for user interaction.",
-    languages: "HTML, CSS and JavaScript",
-    link: "https://www.shecodes.io/cohorts/1719/projects/2144404?_gl=1*1pz3bq6*_gcl_au*NjU4NjcxMzguMTcxMzQ4NDY4NS4xMjk0OTc5MDEzLjE3MTM1MjAzNzQuMTcxMzUyMDM3NA..",
+      "This is a Landing page that includes a user interaction, created using HTML, CSS and JavaScript.",
+    link: "https://github.com/LungiMarcia/Landing_page",
   },
   {
-    title: "My weather App",
+    title: "Weather App",
     description:
-      "In this project, when a user searches for a city, it display the name of the city on the result page and the current temperature ot that city.",
-    languages: "HTML, CSS and JavaScript",
-    link: "https://yj2zwm.csb.app/",
+      "This a weather app thats allows the user to search current weather condition of their country of choice. It was created using HTML, CSS, JavaScript and API integration. ",
+    link: "https://github.com/LungiMarcia/Weather-App",
+  },
+  {
+    title: "Calculator",
+    description:
+      "This calculator was developed with basic mathematical functionalities using CSS, HTML, and JavaScript.   ",
+    link: "https://github.com/LungiMarcia/Calculator",
+  },
+  {
+    title: " To do Web App",
+    description:
+      "This is a basic to-do app developed using HTML, CSS and Javascript. It enables a user to add daily tasks. The to-do list is a union of the Pending Tasks list and the Completed Taskslist. A user can mark a task complete upon its successful completion, and these completed tasks appear on a separate list, say Completed Tasks. There is also a separate section titled Pending Tasks for all the tasks that require completion. Irrespective of the list, a user is able to delete or edit tasks from it.  ",
+    link: "https://github.com/LungiMarcia/To-do-Web-App",
+  },
+  {
+    title: "Login authentication System",
+    description:
+      "This is a login authentication system created using HTML, CSS and JavaScript It allows users to register, login, and access a secured page. ",
+    link: "https://github.com/LungiMarcia/Login-authentication",
   },
 ];
 
@@ -63,6 +79,5 @@ console.log("Projects:");
 projects.forEach(function (project) {
   console.log("Project:" + project.title);
   console.log("Description:" + project.description);
-  console.log("Languages:" + project.languages);
   console.log("Link:" + project.link);
 });
