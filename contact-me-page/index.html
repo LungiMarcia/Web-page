@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
@@ -11,56 +14,78 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
-
-    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Contact Me</h1>
-    </header>
-    <main>
-      <h2>You can reach me at:</h2>
-      <div class="contactInfo">
-        <div class="phone">
-          <p><i class="ri-phone-fill"></i> +27 69 990 6943/ +27 76 824 2190</p>
+    <section class="contact">
+      <h2>Contact Me!</h2>
+      <h3>
+        <span><i class="ri-map-pin-2-fill"></i> </span>
+        Pretoria, Gauteng
+      </h3>
+      <form action="https://formspree.io/f/mzbnyago" method="POST">
+        <div class="input-box">
+          <div class="input-field">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              class="item"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="input-field">
+            <input
+              type="text"
+              id="surname"
+              name="surname"
+              placeholder="Surname"
+              class="item"
+              autocomplete="off"
+              required
+            />
+          </div>
         </div>
-        <div class="email">
-          <p><i class="ri-mail-line"></i>lungile.simelane4@gmail.com</p>
+        <div class="input-box">
+          <div class="input-field">
+            <input
+              tpye="text"
+              id="phone"
+              name="phone"
+              placeholder="Contact Number"
+              class="item"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="input-field">
+            <input
+              tpye="text"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+              class="item"
+              autocomplete="off"
+              required
+            />
+          </div>
         </div>
-        <div class="home-adress">
-          <p>
-            <i class="ri-home-smile-line"></i>
-            2695 EFM Maimane Street
-            <br />
-            Mahube Valley
-            <br />
-            Pretoria, 0122
-          </p>
+        <div class="textarea">
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Your message"
+            class="item"
+            autocomplete="off"
+            required
+          ></textarea>
         </div>
-      </div>
-    </main>
-    <footer>
-      <div class="socials">
-        <div class="social-icons">
-          <a
-            href="https://linkedin.com/in/lungile-simelane-142972a5"
-            target="blank"
-          >
-            <i class="ri-linkedin-box-fill"></i>
-          </a>
-
-          <a href="https://www.instagram.com/accounts/edit/" target="_blank"
-            ><i class="ri-instagram-line"></i
-          ></a>
-          <a href="https://www.facebook.com/lungile.simelane.714" target="blank"
-            ><i class="ri-facebook-circle-fill"></i>
-          </a>
-          <a href="https://github.com/LungiMarcia" target="_blank"
-            ><i class="ri-github-fill"></i>
-          </a>
-        </div>
-      </div>
-    </footer>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
   </body>
 </html>
